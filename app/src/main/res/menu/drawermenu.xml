@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="설정">
+        <menu>
+            <item
+                android:id="@+id/set_IP_address"
+                android:icon="@drawable/ip_icon"
+                android:title="IP 주소 설정" />
+        </menu>
+    </item>
+
+    <item android:title="알람기능 ( 안드로이드 6.0 이상 )">
+        <menu>
+
+            <item
+                android:id="@+id/set_wakeup"
+                android:icon="@drawable/alert_icon"
+                android:title="깨워줘" />
+
+            <item
+                android:id="@+id/set_sleeptime"
+                android:icon="@drawable/light_off_icon"
+                android:title="불 꺼줘" />
+        </menu>
+    </item>
+
+    <item android:title="CCTV">
+        <menu>
+            <item
+                android:id="@+id/myCCTV"
+                android:icon="@drawable/cctv_icon"
+                android:title="CCTV" />
+        </menu>
+
+    </item>
+
+    <item android:title="개발자 정보">
+        <menu>
+            <item
+                android:id="@+id/myinfo"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="문의사항" />
+        </menu>
+
+    </item>
+</menu>
